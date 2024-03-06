@@ -5,11 +5,11 @@ final theme = ThemeData(
   appBarTheme: const AppBarTheme(
     iconTheme: IconThemeData(color: Colors.white),
     elevation: 0,
-    backgroundColor: Color.fromARGB(30, 30, 30, 30),
+    backgroundColor: Color.fromARGB(251, 12, 186, 112),
     titleTextStyle: TextStyle(
       color: Colors.white,
-      fontSize: 20,
-      fontWeight: FontWeight.w700,
+      fontSize: 15,
+      fontWeight: FontWeight.w500,
     ),
   ),
   textTheme: const TextTheme(
@@ -32,6 +32,16 @@ final theme = ThemeData(
       color: Colors.white,
       fontWeight: FontWeight.w400,
       fontSize: 11,
+    ),
+    labelSmall: TextStyle(
+      color: Colors.white54,
+      fontWeight: FontWeight.w400,
+      fontSize: 9,
+    ),
+    headlineSmall: TextStyle(
+      color: Color.fromARGB(251, 12, 186, 112),
+      fontWeight: FontWeight.w500,
+      fontSize: 10,
     ),
   ),
   inputDecorationTheme: const InputDecorationTheme(

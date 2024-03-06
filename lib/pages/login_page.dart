@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: Text(
                       'Продовжити',
-                      style: Theme.of(context).textTheme.titleMedium,
+                      style: theme.textTheme.titleMedium,
                     ),
                   ),
                 ),
